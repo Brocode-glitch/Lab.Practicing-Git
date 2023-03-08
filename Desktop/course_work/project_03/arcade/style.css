@@ -1,0 +1,39 @@
+#p2-name-input,
+#p2-name-label {
+  display: none;
+}
+
+#name-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  left: 100px;
+  bottom: 100px;
+}
+#name-input-container h1 {
+  position: absolute;
+  top: 100px;
+}
+#name-input-container input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#p1-name {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#p2-name {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
